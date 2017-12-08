@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{bee43182-20d9-4e3c-9c2f-b5ecfd901820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{04234fa4-cc6c-4e14-8512-1af8490f6a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{1ed79477-a469-4a9b-b2bd-0b598c2a90e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Text">
+      <UniqueIdentifier>{6df5ed6f-8073-4a4d-bd56-3fe6ec5aa1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManager">
+      <UniqueIdentifier>{1f12adaf-229f-4d84-85cc-cbd940870d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{bb028606-386e-440d-9e8f-c43ac7de7ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{239e226a-13bd-4162-a5ea-9fbb0f88000b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{9659a01e-f3bd-48a3-b160-176da0e093c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image Effect">
+      <UniqueIdentifier>{af9e8a23-069d-4616-b92d-76f4a8f7c1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageEffect">
+      <UniqueIdentifier>{714a0c6f-4bdf-401b-b0fe-47b209cba558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asteriod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lives.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScreen.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Spaceship.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffectManager.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionEffect.h">
+      <Filter>Header Files\Image Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Asteriod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScreen.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Lives.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceship.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffectManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionEffect.cpp">
+      <Filter>Source Files\ImageEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

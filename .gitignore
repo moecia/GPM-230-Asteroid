@@ -1,0 +1,41 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/GPM-230-Asteriod/v15/.suo
+.vs/GPM-230-Asteriod/v15/Browse.VC.db
+*.ipch
+*.tlog
+*.ilk
+*.exp
+*.log
+*.pdb
+*.idb
